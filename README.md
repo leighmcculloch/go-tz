@@ -15,3 +15,5 @@ loc, err := tz.LoadLocation("Australia/Sydney")
 ```
 
 Docs and examples at https://godoc.org/4d63.com/tz.
+
+This package exists because of https://github.com/golang/go/issues/21881.
