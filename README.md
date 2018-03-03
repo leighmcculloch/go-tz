@@ -15,7 +15,3 @@ loc, err := tz.LoadLocation("Australia/Sydney")
 ```
 
 Docs and examples at https://godoc.org/4d63.com/tz.
-
-## TODO
-
-- Compression
