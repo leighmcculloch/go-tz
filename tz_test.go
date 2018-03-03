@@ -104,3 +104,15 @@ func TestLoadLocation_Unknown(t *testing.T) {
 		t.Errorf("got %s, want %s", err.Error(), wantErr)
 	}
 }
+
+func BenchmarkLoadLocation(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		tz.LoadLocation("US/Central")
+	}
+}
+
+func BenchmarkLoadLocation_StdLib(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		time.LoadLocation("US/Central")
+	}
+}
