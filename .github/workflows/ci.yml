@@ -1,0 +1,16 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  build:
+    name: Tests
+    strategy:
+      matrix:
+        go: [1.12, 1.13]
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/setup-go@v1
+        with:
+          go-version: ${{ matrix.go }}
+      - uses: actions/checkout@v1
+      - run: go test -cover ./...
