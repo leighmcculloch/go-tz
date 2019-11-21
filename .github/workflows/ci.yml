@@ -6,7 +6,7 @@ jobs:
     strategy:
       matrix:
         go: [1.12.x, 1.13.x]
-        os: [ubuntu-latest]
+        os: [ubuntu-latest, macOS-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/setup-go@v1
