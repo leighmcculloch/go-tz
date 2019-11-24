@@ -1,5 +1,5 @@
 # tz
-[![Tests](https://github.com/leighmcculloch/go-tz/workflows/Tests/badge.svg)](https://github.com/leighmcculloch/go-tz/actions)
+[![Tests](https://github.com/leighmcculloch/go-tz/workflows/tests/badge.svg)](https://github.com/leighmcculloch/go-tz/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/leighmcculloch/go-tz)](https://goreportcard.com/report/github.com/leighmcculloch/go-tz)
 [![Go docs](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/4d63.com/tz)
 
