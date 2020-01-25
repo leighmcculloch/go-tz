@@ -1,2 +1,6 @@
 4d63.com/embedfiles v0.0.0-20190311033909-995e0740726f h1:oyYjGRBNq1TxAIG8aHqtxlvqUfzdZf+MbcRb/oweNfY=
 4d63.com/embedfiles v0.0.0-20190311033909-995e0740726f/go.mod h1:HxEsUxoVZyRxsZML/S6e2xAuieFMlGO0756ncWx1aXE=
+4d63.com/embedfiles v1.0.0 h1:AR4j5WItSJwBX9SapkvmQUGLPlgCHQZaCDQ52zLXzZM=
+4d63.com/embedfiles v1.0.0/go.mod h1:U0e+fedkrGPVJiU29PWZQ7pHHZRPiQAzwDJocZ4d3PE=
+github.com/tgulacsi/embedfiles v1.0.1-0.20200125145214-c937788601c4 h1:ZGK46C2Dno1j/5jlQZa5wdNQm0IpAJK4FHXvo7BW1qw=
+github.com/tgulacsi/embedfiles v1.0.1-0.20200125145214-c937788601c4/go.mod h1:U0e+fedkrGPVJiU29PWZQ7pHHZRPiQAzwDJocZ4d3PE=
